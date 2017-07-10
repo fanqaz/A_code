@@ -1,0 +1,48 @@
+// 搜索
+        mSearchEt = (EditText) view.findViewById(R.id.search_et);
+        mSearchEt.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if (KeyEvent.KEYCODE_ENTER == keyCode && KeyEvent.ACTION_DOWN == event.getAction()) {
+                    //处理事件
+                    String queryStr = mSearchEt.getText().toString();
+                    return searchProduct(queryStr);
+                }
+                return false;
+            }
+        });
+        mSearchEt.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                // et.getCompoundDrawables()得到一个长度为4的数组，分别表示左右上下四张图片
+                Drawable drawable = mSearchEt.getCompoundDrawables()[2];
+                //如果右边没有图片，不再处理
+                if (drawable == null) return false;
+                //如果不是按下事件，不再处理
+                if (event.getAction() != MotionEvent.ACTION_UP) return false;
+                if (event.getX() > mSearchEt.getWidth() - mSearchEt.getPaddingRight() - drawable.getIntrinsicWidth()) {
+                    String queryStr = mSearchEt.getText().toString();
+                    return searchProduct(queryStr);
+                }
+                return false;
+            }
+        });
+        
+        
+        
+        <EditText
+        android:id="@+id/search_et"
+        style="@style/EditTextSearchStyle"
+        android:layout_width="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginTop="4dp"
+        android:layout_weight="2"
+        android:drawableRight="@drawable/ic_search"
+        android:hint="输入药品名称"
+        android:paddingBottom="5dp"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:paddingTop="5dp"/>
