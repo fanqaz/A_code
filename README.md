@@ -46,4 +46,12 @@ square/wire    //  Clean, lightweight protocol buffers for Android and Java.
 https://github.com/square/wire
 
 
+Simple XML   //  Simple is a high performance XML serialization and configuration framework for Java.
+http://simple.sourceforge.net/
+
+
+
+
+
+
 
