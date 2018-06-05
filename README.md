@@ -19,3 +19,8 @@ https://github.com/crazycodeboy/GitHubPopular
 React Native   // React Native开发工具
 https://github.com/Microsoft/vscode/
 
+
+
+Picasso   // A powerful image downloading and caching library for Android
+https://github.com/square/picasso
+
