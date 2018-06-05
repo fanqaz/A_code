@@ -27,3 +27,7 @@ https://github.com/square/picasso
 
 Butter Knife    // Bind Android views and callbacks to fields and methods. 
 https://github.com/JakeWharton/butterknife
+
+
+GSON  //  A Java serialization/deserialization library to convert Java Objects into JSON and back
+https://github.com/google/gson
