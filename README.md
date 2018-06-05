@@ -42,5 +42,8 @@ https://github.com/square/moshi/
 protobuf //  Protocol Buffers - Google's data interchange format https://developers.google.com/protoco…
 https://github.com/google/protobuf/
 
+square/wire    //  Clean, lightweight protocol buffers for Android and Java.
+https://github.com/square/wire
+
 
 
