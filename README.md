@@ -50,7 +50,8 @@ Simple XML   //  Simple is a high performance XML serialization and configuratio
 http://simple.sourceforge.net/
 
 
-
+alibaba/fastjson   //  A fast JSON parser/generator for Java https://github.com/alibaba/fastjson/wiki
+https://github.com/alibaba/fastjson
 
 
 
