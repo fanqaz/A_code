@@ -35,3 +35,12 @@ https://github.com/google/gson
 Jackson  //  Jackson是一个简单基于Java应用库，Jackson可以轻松的将Java对象转换成json对象和xml文档，同样也可以将json、xml转换成Java对象。Jackson              所依赖的jar包较少，简单易用并且性能也要相对高些，并且Jackson社区相对比较活跃，更新速度也比较快。
 https://www.yiibai.com/jackson/
 
+
+moshi  //  A modern JSON library for Android and Java. http://square.github.io/moshi/1.x/moshi/
+https://github.com/square/moshi/
+
+protobuf //  Protocol Buffers - Google's data interchange format https://developers.google.com/protoco…
+https://github.com/google/protobuf/
+
+
+
