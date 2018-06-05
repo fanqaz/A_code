@@ -24,3 +24,6 @@ https://github.com/Microsoft/vscode/
 Picasso   // A powerful image downloading and caching library for Android
 https://github.com/square/picasso
 
+
+Butter Knife    // Bind Android views and callbacks to fields and methods. 
+https://github.com/JakeWharton/butterknife
