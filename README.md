@@ -31,3 +31,7 @@ https://github.com/JakeWharton/butterknife
 
 GSON  //  A Java serialization/deserialization library to convert Java Objects into JSON and back
 https://github.com/google/gson
+
+Jackson  //  Jackson是一个简单基于Java应用库，Jackson可以轻松的将Java对象转换成json对象和xml文档，同样也可以将json、xml转换成Java对象。Jackson              所依赖的jar包较少，简单易用并且性能也要相对高些，并且Jackson社区相对比较活跃，更新速度也比较快。
+https://www.yiibai.com/jackson/
+
