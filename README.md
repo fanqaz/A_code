@@ -54,5 +54,10 @@ alibaba/fastjson   //  A fast JSON parser/generator for Java https://github.com/
 https://github.com/alibaba/fastjson
 
 
+trello/RxLifecycle  //  Lifecycle handling APIs for Android apps using RxJava
+https://github.com/trello/RxLifecycle
+
+
+
 
 
