@@ -58,6 +58,8 @@ trello/RxLifecycle  //  Lifecycle handling APIs for Android apps using RxJava
 https://github.com/trello/RxLifecycle
 
 
+uber/AutoDispose  //  Automatic binding+disposal of RxJava 2 streams. https://uber.github.io/AutoDispose/
+https://github.com/uber/AutoDispose
 
 
 
