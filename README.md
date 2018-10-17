@@ -71,6 +71,7 @@ https://github.com/razerdp/BasePopup
 
 // expandablelistview  上拉刷新，下拉加载
 https://github.com/heynchy/SwipeMenuAndPullToRefresh
+https://github.com/GuoFeilong/ElongGradleTaskDemo
 
 strings.xml国际化自动翻译
 https://github.com/onlynight/exchange
